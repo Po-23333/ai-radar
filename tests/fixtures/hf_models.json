@@ -1,0 +1,73 @@
+[
+ {
+  "id": "Qwen/Qwen3.5-9B-Instruct",
+  "likes": 1520,
+  "downloads": 250000,
+  "trendingScore": 410,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3",
+   "text-generation",
+   "conversational",
+   "license:apache-2.0",
+   "region:us"
+  ],
+  "createdAt": "2026-09-15T00:00:00.000Z"
+ },
+ {
+  "id": "someone/Qwen3.5-9B-Instruct-GGUF",
+  "likes": 230,
+  "downloads": 90000,
+  "trendingScore": 120,
+  "pipeline_tag": "text-generation",
+  "library_name": "gguf",
+  "tags": [
+   "gguf",
+   "quantized",
+   "base_model:quantized:Qwen/Qwen3.5-9B-Instruct",
+   "base_model:Qwen/Qwen3.5-9B-Instruct"
+  ],
+  "createdAt": "2026-09-16T00:00:00.000Z"
+ },
+ {
+  "id": "ultralytics/yolo13-seg",
+  "likes": 300,
+  "trendingScore": 60,
+  "pipeline_tag": "image-segmentation",
+  "library_name": "ultralytics",
+  "tags": [
+   "yolo",
+   "segmentation",
+   "object-detection"
+  ],
+  "createdAt": "2026-09-10T00:00:00.000Z"
+ },
+ {
+  "id": "lab/fin-numeric-eval-7b",
+  "likes": 45,
+  "downloads": 1200,
+  "trendingScore": 22,
+  "pipeline_tag": "text-generation",
+  "tags": [
+   "finance",
+   "hallucination",
+   "numerical-reasoning",
+   "chinese"
+  ],
+  "createdAt": "2026-09-18T00:00:00.000Z"
+ },
+ {
+  "modelId": "stabilityai/sd-next",
+  "likes": 800,
+  "trendingScore": 200,
+  "pipeline_tag": "text-to-image",
+  "library_name": "diffusers",
+  "tags": [
+   "diffusers",
+   "text-to-image"
+  ]
+ }
+]

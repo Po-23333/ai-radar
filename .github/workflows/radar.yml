@@ -1,0 +1,61 @@
+name: ai-radar
+
+on:
+  schedule:
+    - cron: "7 23 * * *"   # UTC 23:07 = 台灣 07:07（避開整點，整點排程常延遲）
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "只預覽、不發送到 Discord、不更新 state"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # 需要 commit data/state.json
+
+concurrency:
+  group: ai-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python -m unittest
+
+      - name: Run radar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_COLLISION_WEBHOOK_URL: ${{ secrets.DISCORD_COLLISION_WEBHOOK_URL }}
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m radar --dry-run
+          else
+            python -m radar
+          fi
+
+      - name: Upload preview
+        if: ${{ inputs.dry_run == true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview
+          path: preview.json
+
+      - name: Commit state
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "ai-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "radar: $(TZ=Asia/Taipei date +%F)"
+          git push

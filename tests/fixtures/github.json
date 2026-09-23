@@ -1,0 +1,1072 @@
+{
+ "total_count": 42,
+ "items": [
+  {
+   "full_name": "mizorewww/laya-mlx",
+   "name": "laya-mlx",
+   "html_url": "https://github.com/mizorewww/laya-mlx",
+   "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-19T13:50:26Z",
+   "stargazers_count": 5795,
+   "forks_count": 424,
+   "language": "Python",
+   "topics": [
+    "apple-silicon",
+    "decision-model",
+    "inference",
+    "laya",
+    "local-ai",
+    "machine-learning",
+    "mlx",
+    "modernbert",
+    "system-one",
+    "typed-decisions"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "mizorewww"
+   }
+  },
+  {
+   "full_name": "jev-chat/jev-chat-jarvis",
+   "name": "jev-chat-jarvis",
+   "html_url": "https://github.com/jev-chat/jev-chat-jarvis",
+   "description": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-21T11:12:53Z",
+   "stargazers_count": 5062,
+   "forks_count": 992,
+   "language": "Kotlin",
+   "topics": [
+    "accessibility-service",
+    "android",
+    "chat-assistant",
+    "llm",
+    "qq",
+    "wechat"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "jev-chat"
+   }
+  },
+  {
+   "full_name": "yibie/awesome-jev",
+   "name": "awesome-jev",
+   "html_url": "https://github.com/yibie/awesome-jev",
+   "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T14:23:21Z",
+   "stargazers_count": 1424,
+   "forks_count": 202,
+   "language": "Python",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "jev",
+    "llm"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "yibie"
+   }
+  },
+  {
+   "full_name": "mizorewww/laya-coreml",
+   "name": "laya-coreml",
+   "html_url": "https://github.com/mizorewww/laya-coreml",
+   "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-19T23:14:13Z",
+   "stargazers_count": 1369,
+   "forks_count": 111,
+   "language": "Python",
+   "topics": [
+    "apple-neural-engine",
+    "apple-silicon",
+    "coreml",
+    "decision-model",
+    "laya",
+    "local-ai",
+    "modernbert",
+    "on-device-ai",
+    "typed-decisions"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "mizorewww"
+   }
+  },
+  {
+   "full_name": "youngyangyang04/llm-master",
+   "name": "llm-master",
+   "html_url": "https://github.com/youngyangyang04/llm-master",
+   "description": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-12T07:33:31Z",
+   "stargazers_count": 929,
+   "forks_count": 93,
+   "language": null,
+   "topics": [
+    "agent",
+    "large-language-models",
+    "llm",
+    "llm-learning",
+    "llm-tutorial",
+    "rag"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "youngyangyang04"
+   }
+  },
+  {
+   "full_name": "TokenRhythm/NeoHorse",
+   "name": "NeoHorse",
+   "html_url": "https://github.com/TokenRhythm/NeoHorse",
+   "description": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-04T08:34:54Z",
+   "stargazers_count": 853,
+   "forks_count": 9,
+   "language": null,
+   "topics": [
+    "agent",
+    "large-language-models",
+    "llm",
+    "post-training",
+    "recursive-self-improvement",
+    "rsi"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "TokenRhythm"
+   }
+  },
+  {
+   "full_name": "v-modal/awesome-jev-tools",
+   "name": "awesome-jev-tools",
+   "html_url": "https://github.com/v-modal/awesome-jev-tools",
+   "description": "A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-19T16:48:59Z",
+   "stargazers_count": 677,
+   "forks_count": 25,
+   "language": null,
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "awesome-lists",
+    "jev",
+    "llm",
+    "robotics",
+    "robotics-algorithms",
+    "robotics-control",
+    "robotics-simulation"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "v-modal"
+   }
+  },
+  {
+   "full_name": "incoai/splash",
+   "name": "splash",
+   "html_url": "https://github.com/incoai/splash",
+   "description": "A local inference engine for Apple silicon, built around the model.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-18T20:01:48Z",
+   "stargazers_count": 664,
+   "forks_count": 61,
+   "language": "Python",
+   "topics": [
+    "apple-silicon",
+    "coding-agents",
+    "llm-inference",
+    "macos",
+    "metal",
+    "speculative-decoding"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "incoai"
+   }
+  },
+  {
+   "full_name": "atria-asi/Atria-Dawn-Preview",
+   "name": "Atria-Dawn-Preview",
+   "html_url": "https://github.com/atria-asi/Atria-Dawn-Preview",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-12T10:32:29Z",
+   "stargazers_count": 543,
+   "forks_count": 29,
+   "language": null,
+   "topics": [
+    "llm",
+    "llm-agent"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "atria-asi"
+   }
+  },
+  {
+   "full_name": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+   "name": "OrcaBonsai-27B-Uncensored",
+   "html_url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+   "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-18T06:45:54Z",
+   "stargazers_count": 526,
+   "forks_count": 61,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "Organization",
+    "login": "Continuum-AI-Corp"
+   }
+  },
+  {
+   "full_name": "iamzulx/crypto-rag",
+   "name": "crypto-rag",
+   "html_url": "https://github.com/iamzulx/crypto-rag",
+   "description": "Asisten crypto berbahasa Indonesia: RAG pengetahuan 267 topik + data pasar realtime (6 bursa, WebSocket, derivatif, on-chain, TVL, DeFi) + tool-calling agent + LLM synthesis",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-05T06:20:08Z",
+   "stargazers_count": 515,
+   "forks_count": 7,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "iamzulx"
+   }
+  },
+  {
+   "full_name": "AbdelStark/awesome-typesafe-jev",
+   "name": "awesome-typesafe-jev",
+   "html_url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+   "description": "Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T06:56:37Z",
+   "stargazers_count": 490,
+   "forks_count": 105,
+   "language": "HTML",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "awesome",
+    "awesome-jev",
+    "awesome-list",
+    "awesome-lists",
+    "curated-list",
+    "developer-tools",
+    "jev",
+    "llm",
+    "llm-routing",
+    "machine-learning",
+    "model-evaluation",
+    "semantic-routing",
+    "structured-output",
+    "system-one-models",
+    "typed-decisions",
+    "typesafe",
+    "typesafe-ai"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "AbdelStark"
+   }
+  },
+  {
+   "full_name": "jev-chat/jev-chat-windows",
+   "name": "jev-chat-windows",
+   "html_url": "https://github.com/jev-chat/jev-chat-windows",
+   "description": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-21T14:37:14Z",
+   "stargazers_count": 412,
+   "forks_count": 95,
+   "language": "Python",
+   "topics": [
+    "chat-assistant",
+    "jev",
+    "llm",
+    "local-first",
+    "ocr",
+    "privacy",
+    "pyqt",
+    "python",
+    "wechat",
+    "windows"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "jev-chat"
+   }
+  },
+  {
+   "full_name": "aimeoa/hanshuang-codex",
+   "name": "hanshuang-codex",
+   "html_url": "https://github.com/aimeoa/hanshuang-codex",
+   "description": "针对GPT 6.0,workbuddyV4.1flash的破甲实验项目",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-06T08:42:57Z",
+   "stargazers_count": 400,
+   "forks_count": 68,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "codex",
+    "codex-cli",
+    "desktop-app",
+    "jailbreak",
+    "llm",
+    "openai-codex",
+    "prompt-injection",
+    "pyside6",
+    "python"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "aimeoa"
+   }
+  },
+  {
+   "full_name": "modelscope/ms-cookbook",
+   "name": "ms-cookbook",
+   "html_url": "https://github.com/modelscope/ms-cookbook",
+   "description": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-11T14:27:35Z",
+   "stargazers_count": 392,
+   "forks_count": 68,
+   "language": "HTML",
+   "topics": [
+    "ai-agents",
+    "cookbook",
+    "diffusion-models",
+    "fine-tuning",
+    "generative-ai",
+    "llm",
+    "mcp",
+    "model-evaluation",
+    "modelscope",
+    "rag"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "modelscope"
+   }
+  },
+  {
+   "full_name": "Rizzo-AI-Academy/rizzo-flow",
+   "name": "rizzo-flow",
+   "html_url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+   "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-21T00:00:02Z",
+   "stargazers_count": 377,
+   "forks_count": 20,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "Organization",
+    "login": "Rizzo-AI-Academy"
+   }
+  },
+  {
+   "full_name": "ruc-datalab/EvoOntology",
+   "name": "EvoOntology",
+   "html_url": "https://github.com/ruc-datalab/EvoOntology",
+   "description": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-15T01:57:40Z",
+   "stargazers_count": 365,
+   "forks_count": 28,
+   "language": "Python",
+   "topics": [
+    "agent",
+    "agentic-ai",
+    "claude-code",
+    "codex",
+    "data-analysis",
+    "data-science",
+    "harness",
+    "llm",
+    "llm-agents",
+    "ontology",
+    "plugin",
+    "self-evolving"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "ruc-datalab"
+   }
+  },
+  {
+   "full_name": "qiz029/dscode",
+   "name": "dscode",
+   "html_url": "https://github.com/qiz029/dscode",
+   "description": "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-11T09:40:02Z",
+   "stargazers_count": 349,
+   "forks_count": 1,
+   "language": "JavaScript",
+   "topics": [
+    "agentic",
+    "ai-agent",
+    "cli",
+    "code-review",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "developer-tools",
+    "jev",
+    "llm",
+    "macos",
+    "mcp",
+    "nodejs",
+    "terminal",
+    "tui"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "qiz029"
+   }
+  },
+  {
+   "full_name": "sdcb/SimdPaddleOCR",
+   "name": "SimdPaddleOCR",
+   "html_url": "https://github.com/sdcb/SimdPaddleOCR",
+   "description": "纯 C# PP-OCRv6 推理库：多平台手写 Kernel / GEMM 等算子、超高性能、低内存需求、超高准确率。 自带托管 ONNX 解释器，不依赖 Paddle Inference、ONNX Runtime 或 OpenCV 原生库。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-05T06:41:51Z",
+   "stargazers_count": 331,
+   "forks_count": 47,
+   "language": "C#",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "sdcb"
+   }
+  },
+  {
+   "full_name": "xinxuxin/keystone-bench",
+   "name": "keystone-bench",
+   "html_url": "https://github.com/xinxuxin/keystone-bench",
+   "description": "A clinical decision-evidence benchmark: pull the one fact an answer rests on, and see whether the assistant's action moves with the evidence. Built on HealthBench.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-07T17:45:56Z",
+   "stargazers_count": 316,
+   "forks_count": 3,
+   "language": "Python",
+   "topics": [
+    "ai-safety",
+    "benchmark",
+    "clinical-decision-support",
+    "dataset",
+    "evaluation",
+    "health",
+    "healthbench",
+    "large-language-models",
+    "llm-evaluation",
+    "medical-ai"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "xinxuxin"
+   }
+  },
+  {
+   "full_name": "openaiotlab/CUHK-X",
+   "name": "CUHK-X",
+   "html_url": "https://github.com/openaiotlab/CUHK-X",
+   "description": "[MobiSys 2026] A large-scale, multimodal dataset and benchmark for Human Action Recognition, Understanding and Reasoning",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-07T02:42:30Z",
+   "stargazers_count": 303,
+   "forks_count": 9,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "Organization",
+    "login": "openaiotlab"
+   }
+  },
+  {
+   "full_name": "nokia-applied-research/AnyJev",
+   "name": "AnyJev",
+   "html_url": "https://github.com/nokia-applied-research/AnyJev",
+   "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-21T05:55:40Z",
+   "stargazers_count": 301,
+   "forks_count": 45,
+   "language": "Python",
+   "topics": [
+    "calibration",
+    "decision-model",
+    "jev",
+    "jev-model",
+    "llm",
+    "system-one",
+    "transformers",
+    "vllm"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "nokia-applied-research"
+   }
+  },
+  {
+   "full_name": "jev-chat/jev-chat-jarvis-mac",
+   "name": "jev-chat-jarvis-mac",
+   "html_url": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+   "description": "微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-21T11:39:32Z",
+   "stargazers_count": 295,
+   "forks_count": 97,
+   "language": "Python",
+   "topics": [
+    "llm",
+    "local-first",
+    "macos",
+    "ocr",
+    "privacy",
+    "pyobjc",
+    "python",
+    "wechat"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "jev-chat"
+   }
+  },
+  {
+   "full_name": "ekzhang/openjev-sglang",
+   "name": "openjev-sglang",
+   "html_url": "https://github.com/ekzhang/openjev-sglang",
+   "description": "Jev-compatible API endpoint based on open models (prefill-only)",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T18:11:49Z",
+   "stargazers_count": 291,
+   "forks_count": 35,
+   "language": "Python",
+   "topics": [
+    "jev",
+    "llm",
+    "structured-generation",
+    "systemone"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "ekzhang"
+   }
+  },
+  {
+   "full_name": "xiaYuTian11/maskit",
+   "name": "maskit",
+   "html_url": "https://github.com/xiaYuTian11/maskit",
+   "description": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-09T12:36:06Z",
+   "stargazers_count": 276,
+   "forks_count": 43,
+   "language": "Python",
+   "topics": [
+    "anthropic",
+    "claude-code",
+    "cursor",
+    "data-masking",
+    "llm",
+    "mitmproxy",
+    "openai",
+    "pii",
+    "privacy",
+    "proxy",
+    "security",
+    "tauri"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "xiaYuTian11"
+   }
+  },
+  {
+   "full_name": "ops120/wechat-local-viewer",
+   "name": "wechat-local-viewer",
+   "html_url": "https://github.com/ops120/wechat-local-viewer",
+   "description": "微信本地聊天记录查看器 — 会话浏览/全文搜索/多格式导出/可选 LLM 智能总结，全部本地运行，零外部依赖。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-07T16:18:20Z",
+   "stargazers_count": 253,
+   "forks_count": 135,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "ops120"
+   }
+  },
+  {
+   "full_name": "hr98w/jev-visual",
+   "name": "jev-visual",
+   "html_url": "https://github.com/hr98w/jev-visual",
+   "description": "An educational Jev-like visual inference experiment on Apple Silicon: shared context, direct candidate scoring, and local visual demos.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T17:45:56Z",
+   "stargazers_count": 252,
+   "forks_count": 25,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "hr98w"
+   }
+  },
+  {
+   "full_name": "0xNatoshi/jev-codex-router",
+   "name": "jev-codex-router",
+   "html_url": "https://github.com/0xNatoshi/jev-codex-router",
+   "description": "Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T04:14:19Z",
+   "stargazers_count": 246,
+   "forks_count": 29,
+   "language": "JavaScript",
+   "topics": [
+    "ai",
+    "codex",
+    "jev",
+    "llm",
+    "macos",
+    "routing",
+    "typesafe"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "0xNatoshi"
+   }
+  },
+  {
+   "full_name": "undefined-ui/second-brain-os",
+   "name": "second-brain-os",
+   "html_url": "https://github.com/undefined-ui/second-brain-os",
+   "description": "An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts for a self-organizing knowledge base in Claude Code and Obsidian.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-07T15:08:13Z",
+   "stargazers_count": 238,
+   "forks_count": 40,
+   "language": "HTML",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "knowledge-graph",
+    "knowledge-management",
+    "llm",
+    "mcp",
+    "obsidian",
+    "personal-knowledge-base",
+    "pkm",
+    "second-brain"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "undefined-ui"
+   }
+  },
+  {
+   "full_name": "OmniJev/awesome-jev-gallery",
+   "name": "awesome-jev-gallery",
+   "html_url": "https://github.com/OmniJev/awesome-jev-gallery",
+   "description": "🔥🔥 Papers, open reproductions and independent evaluations behind System One models and Jev.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T20:16:57Z",
+   "stargazers_count": 230,
+   "forks_count": 17,
+   "language": "JavaScript",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "calibrated-probabilities",
+    "calibration",
+    "decision-models",
+    "jev",
+    "llm",
+    "llm-evaluation",
+    "rlcd",
+    "structured-outputs",
+    "system-one",
+    "system-one-models",
+    "typed-decisions",
+    "typesafe",
+    "zero-shot-classification"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "OmniJev"
+   }
+  },
+  {
+   "full_name": "oriveo/oriveo",
+   "name": "oriveo",
+   "html_url": "https://github.com/oriveo/oriveo",
+   "description": "Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web. One LLM client for OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek and ten more providers, plus any OpenAI-, Anthropic- or Gemini-compatible endpoint — Ollama, LM Studio, llama.cpp, vLLM. Local-first, self-hostable, no account. AGPL-3.0.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-03T13:12:35Z",
+   "stargazers_count": 227,
+   "forks_count": 4,
+   "language": "Swift",
+   "topics": [
+    "ai-chat",
+    "ai-chat-client",
+    "ai-client",
+    "android",
+    "anthropic",
+    "bring-your-own-key",
+    "byok",
+    "chatgpt-alternative",
+    "claude",
+    "deepseek",
+    "gemini",
+    "ios",
+    "llama-cpp",
+    "llm-client",
+    "lm-studio",
+    "multi-model",
+    "ollama",
+    "openai",
+    "openrouter",
+    "self-hosted"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "oriveo"
+   }
+  },
+  {
+   "full_name": "Yinsongxu/LLM2Jev",
+   "name": "LLM2Jev",
+   "html_url": "https://github.com/Yinsongxu/LLM2Jev",
+   "description": "Adapt local language models into Jev-compatible structured decision engines with Choice, Score, and Noul outputs   powered by prefill-only binary inference.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-19T10:59:33Z",
+   "stargazers_count": 226,
+   "forks_count": 21,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "Yinsongxu"
+   }
+  },
+  {
+   "full_name": "LynnReal-AI/LynnReal-Omni",
+   "name": "LynnReal-Omni",
+   "html_url": "https://github.com/LynnReal-AI/LynnReal-Omni",
+   "description": "LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration and streaming long-video generation into a single framework, all at four-step fast generation. ",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-13T11:11:45Z",
+   "stargazers_count": 219,
+   "forks_count": 9,
+   "language": "Python",
+   "topics": [
+    "benchmark",
+    "long-video-generation",
+    "multimodal",
+    "vae",
+    "video-dataset",
+    "video-generation",
+    "world-model"
+   ],
+   "owner": {
+    "type": "Organization",
+    "login": "LynnReal-AI"
+   }
+  },
+  {
+   "full_name": "tudoumashu/ai-memory-skillpack",
+   "name": "ai-memory-skillpack",
+   "html_url": "https://github.com/tudoumashu/ai-memory-skillpack",
+   "description": "Bounded project-memory skills for Codex CLI and Claude Code.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-08T05:07:25Z",
+   "stargazers_count": 190,
+   "forks_count": 0,
+   "language": "Python",
+   "topics": [
+    "agent-memory",
+    "claude-code",
+    "codex",
+    "llm",
+    "skills"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "tudoumashu"
+   }
+  },
+  {
+   "full_name": "alicasuu/llmwiki-operational",
+   "name": "llmwiki-operational",
+   "html_url": "https://github.com/alicasuu/llmwiki-operational",
+   "description": "A persistent LLM-maintained knowledge system for technical manuals, SOPs, and operational documentation.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-16T02:02:52Z",
+   "stargazers_count": 180,
+   "forks_count": 20,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "alicasuu"
+   }
+  },
+  {
+   "full_name": "pliablepixels/gap-trap",
+   "name": "gap-trap",
+   "html_url": "https://github.com/pliablepixels/gap-trap",
+   "description": "Turns vibe coding into high quality code. Sets up rules and gates in your repo so AI-written code stays correct without you reviewing every line.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-13T20:29:08Z",
+   "stargazers_count": 177,
+   "forks_count": 10,
+   "language": "JavaScript",
+   "topics": [
+    "agent-skills",
+    "agentic-coding",
+    "agents-md",
+    "ai-agents",
+    "ai-coding",
+    "ci-cd",
+    "claude-code",
+    "claude-skills",
+    "code-quality",
+    "codex",
+    "coding-agents",
+    "cursor",
+    "developer-tools",
+    "github-actions",
+    "llm",
+    "mutation-testing",
+    "quality-gates",
+    "tdd",
+    "testing",
+    "vibe-coding"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "pliablepixels"
+   }
+  },
+  {
+   "full_name": "liyupi/ai-model-world",
+   "name": "ai-model-world",
+   "html_url": "https://github.com/liyupi/ai-model-world",
+   "description": "AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-17T03:12:17Z",
+   "stargazers_count": 174,
+   "forks_count": 30,
+   "language": "TypeScript",
+   "topics": [
+    "ai",
+    "ai-models",
+    "benchmark",
+    "chinese",
+    "data-visualization",
+    "deepseek",
+    "large-language-models",
+    "leaderboard",
+    "llm",
+    "llm-benchmarks",
+    "llm-leaderboard",
+    "model-comparison",
+    "nextjs",
+    "pixel-art",
+    "react",
+    "static-site",
+    "tailwindcss",
+    "typescript"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "liyupi"
+   }
+  },
+  {
+   "full_name": "kiyoakii/is-gpt-nerfed",
+   "name": "is-gpt-nerfed",
+   "html_url": "https://github.com/kiyoakii/is-gpt-nerfed",
+   "description": "Shrinkflation detector for Codex",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-15T10:22:16Z",
+   "stargazers_count": 170,
+   "forks_count": 8,
+   "language": "Python",
+   "topics": [
+    "codex",
+    "degradation",
+    "gpt",
+    "llm",
+    "nerf",
+    "openai"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "kiyoakii"
+   }
+  },
+  {
+   "full_name": "kydlikebtc/awesome-jev",
+   "name": "awesome-jev",
+   "html_url": "https://github.com/kydlikebtc/awesome-jev",
+   "description": "805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilingual EN/中文, JSON schema, and a cross-platform compatibility table.",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-22T02:22:54Z",
+   "stargazers_count": 169,
+   "forks_count": 4,
+   "language": "Python",
+   "topics": [
+    "agent-tools",
+    "ai-agents",
+    "awesome",
+    "awesome-list",
+    "calibration",
+    "catalog",
+    "classification",
+    "context-compaction",
+    "decision-model",
+    "intent-routing",
+    "jev",
+    "llm",
+    "system-one",
+    "tool-selection",
+    "typesafe-ai"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "kydlikebtc"
+   }
+  },
+  {
+   "full_name": "surya-koritala/Glyd",
+   "name": "Glyd",
+   "html_url": "https://github.com/surya-koritala/Glyd",
+   "description": "Glyd - Fast lossless compression algorithm",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-19T03:34:15Z",
+   "stargazers_count": 164,
+   "forks_count": 1,
+   "language": "Rust",
+   "topics": [
+    "benchmark",
+    "c-abi",
+    "cli",
+    "compression",
+    "data-compression",
+    "deduplication",
+    "delta-compression",
+    "entropy-coding",
+    "gzip",
+    "jpeg",
+    "logs",
+    "lossless-compression",
+    "lz4",
+    "lz77",
+    "object-storage",
+    "parquet",
+    "rust",
+    "s3",
+    "simd",
+    "zstd"
+   ],
+   "owner": {
+    "type": "User",
+    "login": "surya-koritala"
+   }
+  },
+  {
+   "full_name": "spam/free-gpt-airdrop",
+   "name": "free-gpt-airdrop",
+   "html_url": "https://github.com/spam/free-gpt-airdrop",
+   "description": "Free GPT airdrop crypto bot",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-22T00:00:00Z",
+   "stargazers_count": 900,
+   "forks_count": 1,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "spam"
+   }
+  },
+  {
+   "full_name": "star/farm-llm",
+   "name": "farm-llm",
+   "html_url": "https://github.com/star/farm-llm",
+   "description": "Next-gen LLM framework",
+   "fork": false,
+   "archived": false,
+   "created_at": "2026-09-22T00:00:00Z",
+   "stargazers_count": 3000,
+   "forks_count": 2,
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "type": "User",
+    "login": "star"
+   }
+  }
+ ]
+}

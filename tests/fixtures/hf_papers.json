@@ -1,0 +1,56 @@
+[
+ {
+  "paper": {
+   "id": "2609.11111",
+   "title": "FinNumBench: Measuring Numeric Hallucination of LLMs on Chinese Financial Reports",
+   "summary": "We introduce a benchmark for numeric hallucination in Traditional Chinese annual reports...",
+   "ai_summary": "A benchmark measuring numeric hallucination of LLMs on Chinese financial filings.",
+   "upvotes": 38,
+   "publishedAt": "2026-09-22T10:00:00.000Z",
+   "githubRepo": null,
+   "ai_keywords": [
+    "hallucination",
+    "financial reports",
+    "benchmark"
+   ]
+  },
+  "title": "FinNumBench: Measuring Numeric Hallucination of LLMs on Chinese Financial Reports",
+  "publishedAt": "2026-09-22T12:00:00.000Z",
+  "numComments": 3
+ },
+ {
+  "paper": {
+   "id": "2609.22222",
+   "title": "Speculative Decoding at Scale",
+   "summary": "We scale speculative decoding with ...",
+   "upvotes": 120,
+   "publishedAt": "2026-09-22T10:00:00.000Z",
+   "githubRepo": "https://github.com/TokenRhythm/NeoHorse",
+   "githubStars": 400
+  },
+  "title": "Speculative Decoding at Scale",
+  "publishedAt": "2026-09-22T12:00:00.000Z"
+ },
+ {
+  "paper": {
+   "id": "2609.33333",
+   "title": "Old paper that should be filtered",
+   "summary": "old",
+   "upvotes": 999,
+   "publishedAt": "2026-09-01T10:00:00.000Z"
+  },
+  "title": "Old paper that should be filtered",
+  "publishedAt": "2026-09-01T12:00:00.000Z"
+ },
+ {
+  "paper": {
+   "id": "2609.44444",
+   "title": "World Models for Robots",
+   "summary": "A robot world model.",
+   "upvotes": 60,
+   "publishedAt": "2026-09-22T10:00:00.000Z"
+  },
+  "title": "World Models for Robots",
+  "publishedAt": "2026-09-22T12:00:00.000Z"
+ }
+]
