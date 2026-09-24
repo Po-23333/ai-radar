@@ -29,14 +29,44 @@
    "keys": [
     "gh:jakeatx/llamampere"
    ]
+  },
+  {
+   "channel": "main",
+   "date": "2026-09-24",
+   "id": "1552489208340283397",
+   "keys": [
+    "gh:unreallabsai/unreal-agent",
+    "gh:nandhakishorm/laya",
+    "hfm:convaiinnovations/laya"
+   ]
+  },
+  {
+   "channel": "main",
+   "date": "2026-09-24",
+   "id": "1552489214182948941",
+   "keys": [
+    "hfm:xiaomimimo/mimo-v2.6-pro-rl",
+    "hfm:xiaomimimo/mimo-v2.6-flash-rl",
+    "hfm:prism-ml/ternary-bonsai-2-27b-gguf",
+    "hfm:abenzerps/qwen-image-2.1-uncensored-gguf",
+    "hfm:qwen/qwen3.8-27b"
+   ]
   }
  ],
  "posted": {
   "gh:jakeatx/llamampere": "2026-09-23",
   "gh:jev-chat/jev-chat-jarvis": "2026-09-23",
+  "gh:nandhakishorm/laya": "2026-09-24",
+  "gh:unreallabsai/unreal-agent": "2026-09-24",
   "gh:zai-org/zcode": "2026-09-23",
+  "hfm:abenzerps/qwen-image-2.1-uncensored-gguf": "2026-09-24",
+  "hfm:convaiinnovations/laya": "2026-09-24",
   "hfm:deepseek-ai/deepseek-v4.1-flash": "2026-09-23",
+  "hfm:prism-ml/ternary-bonsai-2-27b-gguf": "2026-09-24",
+  "hfm:qwen/qwen3.8-27b": "2026-09-24",
   "hfm:xiaomimimo/mimo-v2.6-distill-qwen-9b": "2026-09-23",
+  "hfm:xiaomimimo/mimo-v2.6-flash-rl": "2026-09-24",
+  "hfm:xiaomimimo/mimo-v2.6-pro-rl": "2026-09-24",
   "hfp:2609.25001": "2026-09-23",
   "hfp:2609.25165": "2026-09-23",
   "hfp:2609.25270": "2026-09-23",
@@ -55,6 +85,20 @@
     "github": 270,
     "hf-model": 50,
     "hf-paper": 33
+   }
+  },
+  {
+   "date": "2026-09-24",
+   "errors": [],
+   "picked": {
+    "big": 3,
+    "collision": 0,
+    "relevant": 5
+   },
+   "stats": {
+    "github": 274,
+    "hf-model": 50,
+    "hf-paper": 9
    }
   }
  ],
@@ -78,6 +122,10 @@
   "gh:446599/ccodex-rotate": {
    "stars": 134,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:852wa/jizura": {
+   "stars": 172,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:abdelstark/awesome-typesafe-jev": {
    "stars": 490,
@@ -103,6 +151,10 @@
    "stars": 127,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:alibabaresearch/sparkdiffusion": {
+   "stars": 88,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:alicasuu/llmwiki-operational": {
    "stars": 180,
    "t": "2026-09-23T14:54:05+00:00"
@@ -118,6 +170,10 @@
   "gh:amitshekhariitbhu/ai-engineer-roadmap": {
    "stars": 180,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:amitshekhariitbhu/ai-engineering-course": {
+   "stars": 76,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:anishfn/shapeshift": {
    "stars": 285,
@@ -135,9 +191,17 @@
    "stars": 123,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:apimart-api-ai-aggregator/seedance-2.5-api": {
+   "stars": 83,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:apimart001a/llm-gateway-comparison": {
    "stars": 80,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:appitstudio/awesome-jev": {
+   "stars": 83,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:apus-ai-lab/fast-browser-use": {
    "stars": 131,
@@ -158,6 +222,10 @@
   "gh:atria-asi/atria-dawn-preview": {
    "stars": 546,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:aureliengmz/clearwater": {
+   "stars": 132,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:autocratgirder/clashdesk": {
    "stars": 222,
@@ -211,6 +279,14 @@
    "stars": 222,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:byalex33/changelog.earth": {
+   "stars": 103,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:can1357/jegrep": {
+   "stars": 87,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:canivel/dynolab": {
    "stars": 105,
    "t": "2026-09-23T14:54:05+00:00"
@@ -259,9 +335,17 @@
    "stars": 126,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:cyberverse-research/skyline-speeder": {
+   "stars": 103,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:dabit3/jev-experiments": {
    "stars": 372,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:daniellemky/omarchy-iphone-mirror": {
+   "stars": 84,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:davidondrej/cloudroom-core": {
    "stars": 126,
@@ -274,6 +358,10 @@
   "gh:dbreunig/building-with-jev-skill": {
    "stars": 129,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:deepakness/cogsend": {
+   "stars": 112,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:deepopen-com/deepopen": {
    "stars": 528,
@@ -299,6 +387,10 @@
    "stars": 133,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:driceroland/search": {
+   "stars": 637,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:droidrun/mobile-jev": {
    "stars": 364,
    "t": "2026-09-23T14:54:05+00:00"
@@ -323,6 +415,10 @@
    "stars": 620,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:f/jev-leftpad": {
+   "stars": 83,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:fanfanyuyang/bid-agent-vscode": {
    "stars": 135,
    "t": "2026-09-23T14:54:05+00:00"
@@ -338,6 +434,10 @@
   "gh:featherless-ai/simple-jev": {
    "stars": 492,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:fedorchenko-juli/job_search_tool": {
+   "stars": 92,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:ferrycorleone/crush-monitor": {
    "stars": 202,
@@ -359,6 +459,14 @@
    "stars": 117,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:garlandleonor827-sketch/northstar": {
+   "stars": 101,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:geastack/examples": {
+   "stars": 99,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:geminilight/socialcoach": {
    "stars": 152,
    "t": "2026-09-23T14:54:05+00:00"
@@ -371,9 +479,17 @@
    "stars": 734,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:guo-yixin/coding-agent": {
+   "stars": 81,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:gylive/ccodex-sleep-state": {
    "stars": 607,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:haibarazz/awesome-codex-research": {
+   "stars": 102,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:haleclipse/cometixcode": {
    "stars": 503,
@@ -399,9 +515,17 @@
    "stars": 274,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:heman10x-ngu/verdict-open-jev": {
+   "stars": 84,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:heyjunpenn/awesome-jev": {
    "stars": 720,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:heyputer/builder": {
+   "stars": 110,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:hirotomasato/yowes": {
    "stars": 166,
@@ -487,6 +611,10 @@
    "stars": 372,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:jesse-engineer/qijing-ai-guide": {
+   "stars": 84,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:jev-chat/jev-chat-jarvis": {
    "stars": 5100,
    "t": "2026-09-23T14:54:05+00:00"
@@ -534,6 +662,10 @@
   "gh:kerpopule/hermes-jev-skills": {
    "stars": 684,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:kevinbadi/jev-voice": {
+   "stars": 83,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:kishormorol/cli-faq-shortcuts": {
    "stars": 103,
@@ -583,6 +715,14 @@
    "stars": 169,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:kyle-pena-nlp/jevchat": {
+   "stars": 89,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:kylerkrausemdzyra64/crypto-checker": {
+   "stars": 88,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:kyotofin/tax-doc-classifier": {
    "stars": 408,
    "t": "2026-09-23T14:54:05+00:00"
@@ -595,9 +735,21 @@
    "stars": 150,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:liushunqi8-hash/editaplot2026": {
+   "stars": 108,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:liyucheng1997/332_lab-jev-chat": {
+   "stars": 113,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:liyupi/ai-model-world": {
    "stars": 175,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:lkarlslund/laya.cpp": {
+   "stars": 80,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:logan-markewich/jeff": {
    "stars": 227,
@@ -635,6 +787,10 @@
    "stars": 405,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:macos-do/sub4api": {
+   "stars": 83,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:mahdikordian/mahdikordian": {
    "stars": 89,
    "t": "2026-09-23T14:54:05+00:00"
@@ -667,9 +823,17 @@
    "stars": 139,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:mijim/open-toon": {
+   "stars": 91,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:minorun365/minorun-marp-skill": {
    "stars": 367,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:mitkox/esf": {
+   "stars": 95,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:miuuyy/astra-ares": {
    "stars": 221,
@@ -682,6 +846,10 @@
   "gh:mizorewww/laya-mlx": {
    "stars": 5813,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:mizzlelover/cida": {
+   "stars": 95,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:mmastrac/djev-spark": {
    "stars": 184,
@@ -699,9 +867,17 @@
    "stars": 259,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:mrnugget/jev-shell-history": {
+   "stars": 108,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:nandhakishorm/laya": {
    "stars": 19420,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:nanmicoder/jev-arena": {
+   "stars": 98,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:navaneethkrishnansuresh/inference-engineering": {
    "stars": 111,
@@ -714,6 +890,10 @@
   "gh:niazmorshed2007/jev-review": {
    "stars": 211,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:nihui/qwenimage-ncnn-vulkan": {
+   "stars": 95,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:nilbuild/video-demo": {
    "stars": 144,
@@ -759,6 +939,10 @@
    "stars": 108,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:openqa-cn/jev-browser": {
+   "stars": 82,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:ops120/wechat-local-viewer": {
    "stars": 253,
    "t": "2026-09-23T14:54:05+00:00"
@@ -778,6 +962,18 @@
   "gh:pallavi-shekhar/ai-engineering-interview-questions-company-wise": {
    "stars": 632,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:paradigma-inc/limite-violetto": {
+   "stars": 84,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:pbs05/uboot-an758x": {
+   "stars": 95,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:penso/herdr-gpui": {
+   "stars": 133,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:planetscale/lead": {
    "stars": 149,
@@ -823,6 +1019,10 @@
    "stars": 333,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:reco-tools/ritridata": {
+   "stars": 104,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:repoboost-hq/buy-github-stars": {
    "stars": 178,
    "t": "2026-09-23T14:54:05+00:00"
@@ -867,6 +1067,10 @@
    "stars": 177,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:rylaispirit/cinematic-video-prompt-skill": {
+   "stars": 80,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:sabbircode-dev/learning-python": {
    "stars": 241,
    "t": "2026-09-23T14:54:05+00:00"
@@ -875,9 +1079,33 @@
    "stars": 585,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:samyost1/3dicon": {
+   "stars": 149,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:savka777/jev-use": {
+   "stars": 92,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:sdcb/simdpaddleocr": {
    "stars": 332,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:sdras/jev-webmcp-extension": {
+   "stars": 111,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:secwind7/polytech-tree": {
+   "stars": 103,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:sevenevesai/riso-windowseat": {
+   "stars": 145,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:sewcabinspout/cleanupper": {
+   "stars": 723,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:shelpid/sets": {
    "stars": 161,
@@ -891,9 +1119,21 @@
    "stars": 287,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:siliconlabai/openjev": {
+   "stars": 113,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:sno-ai/sno-station": {
+   "stars": 104,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:songs-aaa/shared-memory-vault": {
    "stars": 96,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:sontakkevipul/python-projects": {
+   "stars": 90,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:standardagents/jevpilot": {
    "stars": 180,
@@ -906,6 +1146,10 @@
   "gh:surya-koritala/glyd": {
    "stars": 164,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:susie-meow/card-design-generator": {
+   "stars": 95,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:sutro-sh/jev-align": {
    "stars": 281,
@@ -923,6 +1167,10 @@
    "stars": 141,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:taurine-technology/axon-pulse-foss": {
+   "stars": 80,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:tencentarc/gamehorizon": {
    "stars": 169,
    "t": "2026-09-23T14:54:05+00:00"
@@ -930,6 +1178,10 @@
   "gh:theguysudo/enzo": {
    "stars": 91,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:thinkflowlab/vllm-rlt": {
+   "stars": 77,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:thistakou/useragent-list": {
    "stars": 194,
@@ -1031,9 +1283,17 @@
    "stars": 186,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:virajbhartiya/laya-vs-jev": {
+   "stars": 93,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:virtuslab/tulip": {
    "stars": 94,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:vobl1999/deepseek-harness-easy-setup": {
+   "stars": 103,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:volotat/mini-agi": {
    "stars": 683,
@@ -1099,9 +1359,21 @@
    "stars": 118,
    "t": "2026-09-23T14:54:05+00:00"
   },
+  "gh:yastorovsky/mehron": {
+   "stars": 91,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
+  "gh:yetone/magpie": {
+   "stars": 123,
+   "t": "2026-09-24T01:17:32+00:00"
+  },
   "gh:yibie/awesome-jev": {
    "stars": 1433,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:yibie/jev-engineering-zh": {
+   "stars": 100,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:yifanzhang-pro/klpo": {
    "stars": 180,
@@ -1134,6 +1406,10 @@
   "gh:zefan-cai/open-jev": {
    "stars": 267,
    "t": "2026-09-23T14:54:05+00:00"
+  },
+  "gh:zeldaboyzlix/corz-client": {
+   "stars": 268,
+   "t": "2026-09-24T01:17:32+00:00"
   },
   "gh:zhaoyuxiangyyds-lab/anydoor": {
    "stars": 162,
