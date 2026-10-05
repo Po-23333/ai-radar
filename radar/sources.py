@@ -8,11 +8,13 @@ item 欄位：
   velocity       熱度原始值（GitHub=stars/天、HF model=trendingScore、HF paper=upvotes）
   velocity_label 顯示用
   gh_link        正規化後的 GitHub repo（"owner/repo"），用來做跨來源比對
+  family         同家族去重用的 key（目前只有 HF model 有，其他為 None）
   meta           其他顯示資訊
 """
 from __future__ import annotations
 
 import json
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -125,6 +127,7 @@ def _github_item(r, key, now, snapshots):
         "velocity": per_day,
         "velocity_label": label,
         "gh_link": r["full_name"].lower(),
+        "family": None,
         "meta": {
             "language": r.get("language"),
             "forks": int(r.get("forks_count") or 0),
@@ -139,9 +142,23 @@ def _github_item(r, key, now, snapshots):
 _BORING_TAGS = {"transformers", "safetensors", "pytorch", "endpoints_compatible",
                 "autotrain_compatible", "text-generation-inference", "conversational",
                 "region:us", "custom_code", "gguf"}
+# 轉檔格式後綴：Qwen3.5-9B-Instruct-GGUF → qwen3.5-9b-instruct
+_REPACK_SUFFIX = re.compile(
+    r"([-_.](gguf|awq|gptq|mlx|exl2|exl3|onnx|fp8|fp16|bf16|int4|int8|nvfp4|mxfp4|bnb|"
+    r"\d+-?bits?|q\d(_k)?(_[msl])?|i1|imatrix))+$")
 
 
-def fetch_hf_models(limit=50, get=http_json):
+def model_family(model_id: str) -> str:
+    """去掉 org 與轉檔後綴，讓不同 org 的同一個模型落在同一族。"""
+    name = model_id.lower().split("/")[-1]
+    return "fam:" + (_REPACK_SUFFIX.sub("", name) or name)
+
+
+def is_repack(model_id: str, base_rel: str | None) -> bool:
+    return base_rel == "quantized" or bool(_REPACK_SUFFIX.search(model_id.lower()))
+
+
+def fetch_hf_models(limit=50, get=http_json, family_relations=("quantized", "adapter", "merge")):
     url = "https://huggingface.co/api/models?" + urllib.parse.urlencode(
         {"sort": "trendingScore", "direction": -1, "limit": limit})
     items = []
@@ -167,19 +184,26 @@ def fetch_hf_models(limit=50, get=http_json):
         label = f"trending {trend:,.0f} │ ♥ {likes:,}"
         if downloads is not None:
             label += f" │ ⬇ {int(downloads):,}"
+        # 比對文字不放 key:value 類 tag（base_model:quantized:Qwen/... 會讓每個轉檔都命中「量化」「中文」）
+        # 也不放格式類 tag（gguf 等）：轉檔與否另外用 repack 旗標處理
+        match_tags = [t for t in tags if ":" not in t and t not in _BORING_TAGS]
+        base_rel = base[0] if base else None
+        fam_src = base[1] if base and base_rel in family_relations else mid
         items.append({
             "key": "hfm:" + mid.lower(),
             "source": "hf-model",
             "title": mid,
             "url": f"https://huggingface.co/{mid}",
             "desc": " · ".join(b for b in desc_bits if b) + (f"\ntags: {', '.join(extra)}" if extra else ""),
-            "text": " ".join([mid.replace("-", " ").replace("_", " "), " ".join(tags),
+            "text": " ".join([mid.replace("-", " ").replace("_", " "), " ".join(match_tags),
                               m.get("pipeline_tag") or ""]),
             "metric": likes,
             "velocity": trend,
             "velocity_label": label,
             "gh_link": None,
-            "meta": {"created": m.get("createdAt")},
+            "family": model_family(fam_src),
+            "meta": {"created": m.get("createdAt"), "base": base[1] if base else None,
+                     "base_rel": base_rel, "repack": is_repack(mid, base_rel)},
         })
     return items
 
@@ -215,6 +239,7 @@ def fetch_hf_papers(now, max_age_days=3, limit=100, get=http_json):
             "velocity": float(upvotes),
             "velocity_label": label,
             "gh_link": norm_gh(gh),
+            "family": None,
             "meta": {"arxiv": f"https://arxiv.org/abs/{pid}", "github": gh},
         })
     return items
