@@ -58,6 +58,7 @@ AI_KEYWORDS = [
 NOISE_KEYWORDS = [
     "awesome", "jailbreak", "airdrop", "crypto", "memecoin", "cracked", "keygen",
     "v2ray", "leaked", "system prompts", "free api key", "free-api",
+    "uncensored", "abliterat", "nsfw",
 ]
 
 # ---- 教材類（教程、學習路線、面試題）：不丟掉，但相關度打折 ---------------------------
@@ -66,6 +67,13 @@ LEARNING_KEYWORDS = [
     "教程", "学习路线", "學習路線", "面试", "面試", "入门", "入門",
 ]
 LEARNING_PENALTY = 0.5
+
+# ---- HF 衍生模型 ---------------------------------------------------------------------
+# 量化轉檔（GGUF/AWQ/...）：熱度照算，但「跟你有關」打折 —— 轉檔不等於推論研究
+DERIVATIVE_PENALTY = 0.4
+# 哪些 base_model 關係算「同一家族」（同家族一天只推一個、推過就整族不再推）
+# finetune 不算：微調 / 蒸餾是新工作，不是換包裝
+FAMILY_RELATIONS = ("quantized", "adapter", "merge")
 
 # ---- GitHub 搜尋：{since} 會被換成 now - days --------------------------------------
 GITHUB_QUERIES = [
@@ -77,12 +85,19 @@ GITHUB_QUERIES = [
 ]
 
 HF_MODELS_LIMIT = 50
-HF_PAPERS_MAX_AGE_DAYS = 3
+HF_PAPERS_MAX_AGE_DAYS = 5  # HF 週末不上新論文；3 天會讓週日、週一固定 0 篇
 
 # ---- 版面 --------------------------------------------------------------------------
 BIG_N = 3               # 今日大事
 BIG_MAX_PER_SOURCE = 2  # 大事裡同一來源最多幾則（避免被 GitHub 洗版）
 RELEVANT_N = 5          # 跟你有關
+RELEVANT_MAX_PER_SOURCE = 3  # 跟你有關裡同一來源最多幾則（論文摘要長、命中多，會洗版）
 COLLISION_N = 5         # 撞題警報
-REPOST_COOLDOWN_DAYS = 7  # 推過的東西幾天內不再推
-STATE_RETENTION_DAYS = 30
+
+# ---- 重推規則：推過的東西預設不再推，除非「再度升溫」 ------------------------------
+RESURGE_SOURCES = ("github", "hf-model")  # 論文的 upvotes 是累積值，不是速度，不適用
+RESURGE_FACTOR = 2.0      # 目前速度 >= 推送當時的幾倍
+RESURGE_MIN_DAYS = 3      # 距離上次推送至少幾天
+
+STATE_RETENTION_DAYS = 30   # star 快照、訊息紀錄、run 紀錄
+POSTED_RETENTION_DAYS = 90  # 已推送紀錄（決定「推過」能記多久）

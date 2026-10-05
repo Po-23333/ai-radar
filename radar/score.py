@@ -43,6 +43,9 @@ def annotate(items):
         if _hit(_LEARN, text):
             it["relevance"] *= C.LEARNING_PENALTY
             it["flags"].append("📚 教材類")
+        if it.get("meta", {}).get("repack"):
+            it["relevance"] *= C.DERIVATIVE_PENALTY
+            it["flags"].append("📦 量化轉檔")
     return items
 
 
@@ -82,10 +85,52 @@ def compute_heat(items):
     return items
 
 
+def posted_entry(v):
+    """posted 的值：新格式 {"d": 日期, "v": 推送時速度}；舊格式是日期字串（沒有速度 → 永不重推）。"""
+    return {"d": v, "v": None} if isinstance(v, str) else v
+
+
+def _eligibility(it, posted: dict, today: date):
+    """回傳 (能不能推, 重推說明 or None)。"""
+    own = posted.get(it["key"])
+    if own is None:
+        fam = it.get("family")
+        return (fam is None or fam not in posted), None  # 同家族推過 → 整族不推
+    p = posted_entry(own)
+    if p["v"] is None or it["source"] not in C.RESURGE_SOURCES:
+        return False, None
+    days = (today - date.fromisoformat(p["d"])).days
+    ratio = it["velocity"] / max(p["v"], 1.0)
+    if days >= C.RESURGE_MIN_DAYS and ratio >= C.RESURGE_FACTOR:
+        return True, f"🔁 再度升溫：{days} 天前推過，熱度 ×{ratio:.1f}"
+    return False, None
+
+
 def select(items, posted: dict, today: date):
-    cutoff = (today - timedelta(days=C.REPOST_COOLDOWN_DAYS)).isoformat()
-    pool = [i for i in items
-            if i["ai"] and not i["noise"] and posted.get(i["key"], "0000") < cutoff]
+    pool = []
+    for it in items:
+        if not it["ai"] or it["noise"]:
+            continue
+        ok, note = _eligibility(it, posted, today)
+        if ok:
+            if note:
+                it["flags"].append(note)
+            pool.append(it)
+
+    # 同家族（同一模型的各家轉檔 / adapter）只留熱度最高的一個
+    fams = {}
+    for it in pool:
+        if it.get("family"):
+            fams.setdefault(it["family"], []).append(it)
+    drop = set()
+    for members in fams.values():
+        if len(members) > 1:
+            members.sort(key=lambda i: i["heat"], reverse=True)
+            members[0]["flags"].append(f"🧬 另有 {len(members) - 1} 個同系列版本："
+                                       + "、".join(m["title"] for m in members[1:3])
+                                       + ("…" if len(members) > 3 else ""))
+            drop |= {m["key"] for m in members[1:]}
+    pool = [i for i in pool if i["key"] not in drop]
     pool.sort(key=lambda i: i["heat"], reverse=True)
 
     big, per_src = [], Counter()
@@ -98,9 +143,16 @@ def select(items, posted: dict, today: date):
             break
     shown = {i["key"] for i in big}
 
-    relevant = sorted((i for i in pool if i["relevance"] > 0 and i["key"] not in shown),
-                      key=lambda i: i["relevance"] * (0.4 + i["heat"]), reverse=True)[:C.RELEVANT_N]
-    shown |= {i["key"] for i in relevant}
+    ranked = sorted((i for i in pool if i["relevance"] > 0 and i["key"] not in shown),
+                    key=lambda i: i["relevance"] * (0.4 + i["heat"]), reverse=True)
+    relevant, per_src = [], Counter()
+    for it in ranked:
+        if per_src[it["source"]] >= C.RELEVANT_MAX_PER_SOURCE:
+            continue
+        relevant.append(it)
+        per_src[it["source"]] += 1
+        if len(relevant) >= C.RELEVANT_N:
+            break
 
     collision = [i for i in pool if i["collision"]][:C.COLLISION_N]
     return {"big": big, "relevant": relevant, "collision": collision, "pool_size": len(pool)}
